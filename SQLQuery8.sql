@@ -320,3 +320,9 @@ Slide_brand
 NULL
 
 
+Select * from [ELMA_VIEW_UsersStructDetails] where UserDetails_Status in ('Активный','Новый','Длительное отсутствие')
+
+Select  Activity_Id,Activity_name,Activity_startAt,Activity_duration_day,Activity_SUB_type,[Activity_RecordType_name],UserDetails_Type,Users_Name  from  [dbo].[ELMA_VIEW_ActivityFull] where Activity_Status = 'Завершен' and Activity_duration_day > 1.2
+order by Activity_startAt
+
+
