@@ -4,8 +4,8 @@ USE ELMA_DB
 declare @start_cycle_date date
 declare @end_cycle_date date
 
-SET @start_cycle_date = '2023-05-01'
-SET @end_cycle_date = '2023-05-31'
+SET @start_cycle_date = '2023-06-01'
+SET @end_cycle_date = '2023-06-30'
 
 ------------------------------------------------------------------------
 
